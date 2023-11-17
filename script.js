@@ -9,6 +9,7 @@ function daysOfAYear(year){
 	else{
 		return 365;
 	}
-	
+	  
 }
-alert(daysOfAYear(2000));
+let year = prompt("enter year: ");
+alert(daysOfAYear(year));
